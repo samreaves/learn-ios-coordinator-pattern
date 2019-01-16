@@ -15,6 +15,8 @@
 		8162E1C421EECE2F002DEECF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162E1C321EECE2F002DEECF /* Coordinator.swift */; };
 		8162E1C621EECED3002DEECF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162E1C521EECED3002DEECF /* Storyboarded.swift */; };
 		8162E1C821EED194002DEECF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162E1C721EED194002DEECF /* MainCoordinator.swift */; };
+		8162E1CA21EED814002DEECF /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162E1C921EED814002DEECF /* BuyViewController.swift */; };
+		8162E1CC21EED82E002DEECF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8162E1CB21EED82E002DEECF /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8162E1C321EECE2F002DEECF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8162E1C521EECED3002DEECF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		8162E1C721EED194002DEECF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		8162E1C921EED814002DEECF /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		8162E1CB21EED82E002DEECF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				8162E1C721EED194002DEECF /* MainCoordinator.swift */,
+				8162E1C921EED814002DEECF /* BuyViewController.swift */,
+				8162E1CB21EED82E002DEECF /* CreateAccountViewController.swift */,
 				8162E1C321EECE2F002DEECF /* Coordinator.swift */,
 				8162E1C521EECED3002DEECF /* Storyboarded.swift */,
 				8162E1B121EEBD49002DEECF /* AppDelegate.swift */,
@@ -144,11 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8162E1CC21EED82E002DEECF /* CreateAccountViewController.swift in Sources */,
 				8162E1B421EEBD49002DEECF /* ViewController.swift in Sources */,
 				8162E1B221EEBD49002DEECF /* AppDelegate.swift in Sources */,
 				8162E1C421EECE2F002DEECF /* Coordinator.swift in Sources */,
 				8162E1C821EED194002DEECF /* MainCoordinator.swift in Sources */,
 				8162E1C621EECED3002DEECF /* Storyboarded.swift in Sources */,
+				8162E1CA21EED814002DEECF /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
